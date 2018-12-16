@@ -1,0 +1,24 @@
+{
+  "name": "ubiq",
+  "version": "1.0.0",
+  "description": "ubiq payment gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Bingfeng Liu",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "crypto-js": "^3.1.9-1",
+    "curl": "^0.1.4",
+    "dotenv": "^5.0.1",
+    "ethereumjs-tx": "^1.3.7",
+    "fast-csv": "^2.4.1",
+    "ganache-cli": "^6.1.0",
+    "json-rpc2": "^1.0.2",
+    "mongoose": "^5.2.9",
+    "sleep": "^5.1.1",
+    "web3": "^1.0.0-beta.33"
+  }
+}
